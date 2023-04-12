@@ -11,22 +11,16 @@
 <body>
     <div class="header">
         <h1>Pagina Inicial</h1>
-      </div>
-      
-      <div class="topnav">
+        </div>
+        <div class="topnav">
         <a href="#">Home</a>
         <a href="#">Contato</a>
         <a href="#">Games</a>
-       <a onclick="toggleTheme()"><img src="test3.png"></a>
-      </div>
-      <img src="icon.png">
+        <img class="dark" src="icon.png" onclick="toggleTheme()">
+        </div>
+        
+        <script src="funcoes.js"></script>
       
-      
-      <script>
-      function toggleTheme() {
-          document.body.classList.toggle("dark-theme");
-      }
-      </script>
    
 
 </body>
