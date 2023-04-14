@@ -176,3 +176,14 @@ h5 {
     section,aside,article{
     padding: 20px;
     text-align: center;}
+
+    @keyframes wordAnimation {
+        0% { content: "DEV" }
+        33.33% { content: "TECH"; }
+        66.66% { content: "PROG"; }
+        100% { content: "DEV"; }
+    }
+    
+    #wordSwap::after {
+        animation: wordAnimation 3s infinite;
+    }
