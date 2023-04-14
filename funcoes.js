@@ -14,17 +14,3 @@ let words = ["TECH", "TI","DEV"];
 
 		setInterval(swapWord, 3300);
 
-// validação de formulario: 
-function validarFormulario() {
-	var nome = document.getElementById("name").value;
-	var email = document.getElementById("email").value;
-	var mensagem = document.getElementById("message").value;
-  
-	if (nome == "" || email == "" || mensagem == "") {
-	  alert("Por favor, preencha todos os campos.");
-	  return false;
-	}
-  
-	return true;
-  }
-        
