@@ -1,9 +1,11 @@
 * {
     box-sizing: border-box;
+    
 }
 
 body {
     margin: 0;
+    background-color: #f1f1f1;
 }
 
 /* Style the header */
@@ -101,5 +103,26 @@ h5 {
     letter-spacing: .4em;
     color: #878a8f;
 }
+.textfooter {
+    font-family: "Helvetica Now Display DW",sans-serif;
+    color: #878a8f;
+    font-weight: 500;
+    letter-spacing: .01em;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+.textfooterone{
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
+    padding-top: 1px;
+    padding-bottom: 4px;
+    font-family: "Helvetica Now Display DW",sans-serif;
+    text-align: center;
+}
 
-
+footer,aside,section{
+    text-align:left ;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
