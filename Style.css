@@ -177,13 +177,27 @@ h5 {
     padding: 20px;
     text-align: center;}
 
-    @keyframes wordAnimation {
-        0% { content: "DEV" }
-        33.33% { content: "TECH"; }
-        66.66% { content: "PROG"; }
-        100% { content: "DEV"; }
+    #wordSwap {
+        display: inline-block;
+        overflow: hidden;
+        border-right: .1em solid black;
+        font-size: 2em;
+        white-space: nowrap;
+        letter-spacing: .15em;
+        animation: typing 3.5s steps(30, end), blink-caret .5s step-end infinite;
+        
     }
-    
-    #wordSwap::after {
-        animation: wordAnimation 3s infinite;
+
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 35% }
+    }
+
+    @keyframes blink-caret {
+        from, to { border-color: transparent }
+        16% { border-color: black }
+        to { opacity: -100; }
+    }
+    i{
+        color: red;
     }
