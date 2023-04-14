@@ -78,3 +78,19 @@ body.dark-theme .dark {
        text-align:left; 
    }
 }
+h1, h1.large {
+    font-size: 2.125rem;
+    line-height: 2.5rem;
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
+a.with-icon {
+    position: relative;
+    color: #0f141e;
+    border: 0 none;
+    display: inline-block;
+    line-height: 1;
+}
+.keep-together {
+    display: inline-block;
+}
