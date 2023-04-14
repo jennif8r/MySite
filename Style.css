@@ -257,18 +257,17 @@ h3{
     list-style: none;
     padding: 0;
 }
-
-    ul.contact > li {
+ul.contact > li {
         padding: 0;
         margin: 1.5em 0 0 0;
     }
 
-        ul.contact > li:first-child {
+ul.contact > li:first-child {
             margin-top: 0;
         }
 
 
-        a {
+a {
             -moz-transition: color 0.2s ease, border-bottom-color 0.2s ease;
             -webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
             -ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
@@ -278,14 +277,14 @@ h3{
             text-decoration: none;
         }
     
-            a:hover {
+a:hover {
                 border-bottom-color: transparent;
                 color: #d8a7a7;
             }
-            .contact{
+.contact{
                 text-align: left;
             }
-            span,h3,a{
+span,h3,a{
                 font-family: "Helvetica Now Display DW", sans-serif;
             }
          /* comentar para sub */
