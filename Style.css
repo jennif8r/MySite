@@ -121,6 +121,13 @@ h5 {
     letter-spacing: .4em;
     color: #878a8f;
 }
+h3{
+    font-family: "Helvetica Now Display DW", sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #3e424a;
+    
+}
 
 .textfooter {
     font-family: "Helvetica Now Display DW", sans-serif;
